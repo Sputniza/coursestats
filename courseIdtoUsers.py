@@ -2,8 +2,6 @@ import sys
 sys.stderr = sys.stdout
 import urllib, urllib2, json
 from dateutil.relativedelta import relativedelta
-import cgi, cgitb
-
 
 def getUserList (courseId):
     """
